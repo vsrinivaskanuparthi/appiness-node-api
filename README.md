@@ -27,7 +27,7 @@ This Appiness Products Categories API is a node rest api that allows users to in
 	"description": "Category Description"
 }
 
-Response :
+## Response : {
 
 {
   "name": "name",
