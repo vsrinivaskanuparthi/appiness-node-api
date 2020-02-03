@@ -41,10 +41,10 @@ Response :
 ##  req.body {
 	"name": "Product Name",
 	"description": "Product Description",
-  "categoryId": "categoryId"
-}
+        "categoryId": "categoryId"
+     }
 
-Response :
+## Response :
 
 {
   "name": "name",
@@ -58,7 +58,7 @@ Response :
 2.http://localhost:3005/api/categories/:categoryId (DELETE)
 
 
-Response :
+##  Response :
 [
  {
   "name": "name",
