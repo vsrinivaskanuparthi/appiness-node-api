@@ -55,7 +55,7 @@ This Appiness Products Categories API is a node rest api that allows users to in
 }
 
 
-2.http://localhost:3005/api/categories/:categoryId (DELETE)
+3.http://localhost:3005/api/categories/:categoryId (DELETE)
 
 
 ##  Response :
