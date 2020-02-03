@@ -15,6 +15,59 @@ This Appiness Products Categories API is a node rest api that allows users to in
 1. clone repo
 2. npm install
 3. export the node env variables or use the launch.json file and debug the application in visual studio code
+4. Note: the mongodb i have launched in aws and using it. for now anyone can use it.
+
+
+### Request JSON Samples
+
+1.http://localhost:3005/api/categories (POST)
+
+##  req.body {
+	"name": "Category Name",
+	"description": "Category Description"
+}
+
+Response :
+
+{
+  "name": "name",
+  "description": "description",
+  "_id": "ObjectId()",
+  "categoryId": "_id"
+}
+
+2.http://localhost:3005/api/products (POST)
+
+##  req.body {
+	"name": "Product Name",
+	"description": "Product Description",
+  "categoryId": "categoryId"
+}
+
+Response :
+
+{
+  "name": "name",
+  "description": "description",
+  "_id": "ObjectId()",
+  "productId": "_id",
+  "categoryId": "categoryId"
+}
+
+
+2.http://localhost:3005/api/categories/:categoryId (DELETE)
+
+
+Response :
+[
+ {
+  "name": "name",
+  "description": "description",
+  "_id": "ObjectId()",
+  "productId": "_id",
+  "categoryId": "categoryId"
+ }
+ ]
 
 
 
